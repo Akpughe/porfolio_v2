@@ -1,0 +1,22 @@
+{
+  "name": "my_portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "10.0.1",
+    "react": "17.0.1",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-dom": "17.0.1",
+    "react-items-carousel": "^2.8.0",
+    "react-reveal": "^1.2.2"
+  },
+  "devDependencies": {
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.9.6"
+  }
+}
