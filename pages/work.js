@@ -55,7 +55,7 @@ const work = () => {
           <div>
             <ItemsCarousel
               infiniteLoop={true}
-              gutter={400}
+              gutter={500}
               activePosition={'center'}
               chevronWidth={10}
               chevronHeight={10}
