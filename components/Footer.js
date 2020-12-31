@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <div
-        className="flex flex-wrap justify-center justify-around items-center w-3/4 h-40 m-auto"
+        className="flex flex-wrap justify-center justify-around items-center w-3/4 h-40 m-auto absolute bottom-0 left-0 right-0"
         style={{
           background: "url('/images/bg-footer.jpg') center center no-repeat", backgroundSize:"cover"
         }}

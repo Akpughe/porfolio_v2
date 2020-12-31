@@ -49,7 +49,7 @@ const work = () => {
 
       <Layout>
         <div className="container mx-auto w-3/4 mb-10">
-          <div className="pl-12">
+          <div className="pl-12 mb-12">
             <h1 className="text-4xl font-bold tracking-wider">Works</h1>
           </div>
           <div>
@@ -75,7 +75,7 @@ const work = () => {
                 return (
                   <div
                     className="flex flex-col justify-between rounded-md bg-gray-200 text-black p-10"
-                    style={{ width: '500px', height: '400px' }}
+                    style={{ width: '500px', height: '400px', marginLeft:'50px' }}
                     key={index}
                   >
                     <div className="flex justify-between">
