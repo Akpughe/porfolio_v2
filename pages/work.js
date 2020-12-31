@@ -52,7 +52,7 @@ const work = () => {
           <div className="pl-12 mb-12">
             <h1 className="text-4xl font-bold tracking-wider">Works</h1>
           </div>
-          <div>
+          <div className="mb-8">
             <ItemsCarousel
               infiniteLoop={true}
               gutter={500}
@@ -68,14 +68,22 @@ const work = () => {
               firstAndLastGutter={false}
               activeItemIndex={activeItemIndex}
               requestToChangeActive={setActiveItemIndex}
-              rightChevron={<button className="p-6 rounded-full bg-white" shape="circle">→</button>}
-              leftChevron={<button className="p-6 rounded-full bg-white" shape="circle">←</button>}
+              rightChevron={
+                <button className="p-6 rounded-full bg-white" shape="circle">
+                  →
+                </button>
+              }
+              leftChevron={
+                <button className="p-6 rounded-full bg-white" shape="circle">
+                  ←
+                </button>
+              }
             >
               {stuff.map((item, index) => {
                 return (
                   <div
                     className="flex flex-col justify-between rounded-md bg-gray-200 text-black p-10"
-                    style={{ width: '500px', height: '400px'}}
+                    style={{ width: '500px', height: '400px' }}
                     key={index}
                   >
                     <div className="flex justify-between">
@@ -83,7 +91,7 @@ const work = () => {
                         {item.name}
                       </h1>
                       <div>
-                        <h1>{item.stack}</h1>
+                        <h1 className="text-green-600">{item.stack}</h1>
                       </div>
                     </div>
                     <div className="flex justify-around">
@@ -91,7 +99,7 @@ const work = () => {
                         <h3 className="cursor-pointer">View Work</h3>
                       </Link>
                       <Link href={item.link}>
-                        <h3 className="cursor-pointer">Github</h3>
+                        <h3 className="cursor-pointer text-blue-600">Github</h3>
                       </Link>
                     </div>
                   </div>
@@ -99,6 +107,9 @@ const work = () => {
               })}
             </ItemsCarousel>
           </div>
+          <Link href="https://github.com/Akpughe">
+            <h1 className="cursor-pointer text-blue-600 underline">Show more</h1>
+          </Link>
         </div>
       </Layout>
     </>
