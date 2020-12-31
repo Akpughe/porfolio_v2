@@ -75,7 +75,7 @@ const work = () => {
                 return (
                   <div
                     className="flex flex-col justify-between rounded-md bg-gray-200 text-black p-10"
-                    style={{ width: '500px', height: '400px', marginLeft:'50px' }}
+                    style={{ width: '500px', height: '400px'}}
                     key={index}
                   >
                     <div className="flex justify-between">
