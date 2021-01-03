@@ -27,7 +27,7 @@ const Card = ({ title }) => {
               className="flex flex-col justify-between bg-gray-200 p-16 cursor-pointer transform hover:-translate-y-4 transition ease-out duration-700 mt-8 "
               style={{
                 marginRight: '40px',
-                width: '630px',
+                width: '550px',
                 height: '400px',
               }}
             >
