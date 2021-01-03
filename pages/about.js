@@ -1,8 +1,19 @@
 import React from 'react';
 import Head from 'next/head';
 import Layout from '../components/Layout';
+import ArrowBlack from '../icons/ArrowBlack';
 
 const about = () => {
+  function getAge(dateString) {
+    var today = new Date();
+    var birthDate = new Date(dateString);
+    var age = today.getFullYear() - birthDate.getFullYear();
+    var m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+    }
+    return age;
+}
   return (
     <>
       <Head>
@@ -30,11 +41,11 @@ const about = () => {
             >
               <div className="flex justify-between mb-4">
                 <div>
-                  <h2 className="text-5xl font-bold">4</h2>
+                  <h2 className="text-5xl font-bold">3</h2>
                   <span className="uppercase text-sm">years of experience</span>
                 </div>
                 <div>
-                  <h2 className="text-5xl font-bold">19</h2>
+                  <h2 className="text-5xl font-bold">{getAge("2001/11/24")}</h2>
                   <span className="uppercase text-sm">years old</span>
                 </div>
               </div>
@@ -51,6 +62,24 @@ const about = () => {
                   <img src="../images/ico-li-light.svg" alt="" />
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+        <section className="flex justify-center border-t-2 border-gray-400 pt-32">
+          <div
+            className="text-center m-0 m-auto"
+            style={{ marginBottom: '120px' }}
+          >
+            <h3 className="text-sm font-normal text-gray-600 tracking-wider mb-8	 ">
+              DO YOU LIKE MY WORK?
+            </h3>
+            <h2 className="text-5xl font-bold tracking-wider mb-8">
+              Let's <span className="text-indigo-600">work</span> together!
+            </h2>
+            <div className="flex justify-center">
+              <button className="flex items-center bg-white border-black text-black text-lg h-16 py-7 px-12 ml-11 border border-gray-300 rounded-full">
+                Get in touch <ArrowBlack />{' '}
+              </button>
             </div>
           </div>
         </section>
