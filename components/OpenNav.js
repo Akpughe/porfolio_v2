@@ -59,7 +59,7 @@ const OpenNav = () => {
                   About me
                 </li>
               </Link>
-              <Link href="#">
+              <Link href="/contact">
                 <li className="font-bold text-5xl py-2 cursor-pointer hover:opacity-50 transform transition ease-out duration-700">
                   Contact
                 </li>
