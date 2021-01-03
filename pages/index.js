@@ -31,9 +31,11 @@ export default function Home({ props }) {
                 solutions for brands.
               </h1>
               <div className="flex justify-center">
-                <button className="flex items-center bg-black text-white h-16 py-7 px-12 rounded-full">
-                  My work <Arrow />{' '}
-                </button>
+                <Link href="/work">
+                  <button className="flex items-center bg-black text-white h-16 py-7 px-12 rounded-full">
+                    My work <Arrow />{' '}
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
