@@ -116,9 +116,11 @@ export default function Home({ props }) {
             <h2 className=" text-4xl font-bold" style={{ marginRight: '40px' }}>
               Recent Work
             </h2>
-            <button className="flex items-center bg-white border-black text-black text-lg h-16 py-7 px-12 ml-11 border border-gray-300 rounded-full">
-              All work <ArrowBlack />{' '}
-            </button>
+            <Link href="/work">
+              <button className="flex items-center bg-white border-black text-black text-lg h-16 py-7 px-12 ml-11 border border-gray-300 rounded-full">
+                All work <ArrowBlack />{' '}
+              </button>
+            </Link>
           </div>
 
           <div
@@ -141,9 +143,11 @@ export default function Home({ props }) {
               Let's <span className="text-indigo-600">work</span> together!
             </h2>
             <div className="flex justify-center">
-              <button className="flex items-center bg-white border-black text-black text-lg h-16 py-7 px-12 ml-11 border border-gray-300 rounded-full">
-                Get in touch <ArrowBlack />{' '}
-              </button>
+              <Link href="/contact">
+                <button className="flex items-center bg-white border-black text-black text-lg h-16 py-7 px-12 ml-11 border border-gray-300 rounded-full">
+                  Get in touch <ArrowBlack />{' '}
+                </button>
+              </Link>
             </div>
           </div>
         </section>
