@@ -11,30 +11,39 @@ const work = () => {
       link: 'https://react-todo-hooks.now.sh/',
       github: 'https://github.com/Akpughe/react-todo-hooks',
       stack: 'react js',
+      backgroundImage:
+        'https://res.cloudinary.com/davak/image/upload/v1609721074/portfolio/snap_2_az60hm.png',
     },
     {
       name: 'E-commerce',
       link: 'https://snip-cart-ecommerce.now.sh/',
       github: 'https://github.com/Akpughe/Snipcart-nxtjs',
       stack: 'react, snipcart',
+      backgroundImage:
+        'https://res.cloudinary.com/davak/image/upload/v1609721079/portfolio/snap_1_evdre7.png',
     },
     {
       name: 'Twitter clone',
-      link: '',
+      link: 'https://twitter-clone-421b6.web.app/',
       github: 'https://github.com/Akpughe/Twitter_clone',
       stack: 'react, firebase',
+      backgroundImage:
+        'https://res.cloudinary.com/davak/image/upload/v1609721494/portfolio/snap_4_v6wnhc.png',
     },
     {
       name: 'Expense Tracker',
       link: 'https://fathomless-plateau-51253.herokuapp.com/',
       github: 'https://github.com/Akpughe/expense-tracker',
       stack: 'react, nodejs, expressjs, mongodb',
+      backgroundImage:
+        'https://res.cloudinary.com/davak/image/upload/v1609721075/portfolio/snap_3_hoofvt.png',
     },
     {
       name: 'Gallery App',
       link: '',
       github: 'https://github.com/Akpughe/react-tailwind-pixabay-gallery',
       stack: 'react, pixabay api, tailwind',
+      backgroundImage: '',
     },
   ];
 
@@ -83,7 +92,13 @@ const work = () => {
                 return (
                   <div
                     className="flex flex-col justify-between rounded-md bg-gray-200 text-black p-10"
-                    style={{ width: '500px', height: '400px' }}
+                    style={{
+                      width: '500px',
+                      height: '400px',
+                      background: `url(${item.backgroundImage})`,
+                      backgroundPosition: 'center',
+                      backgroundSize: 'contain',
+                    }}
                     key={index}
                   >
                     <div className="flex justify-between">
@@ -108,7 +123,9 @@ const work = () => {
             </ItemsCarousel>
           </div>
           <Link href="https://github.com/Akpughe">
-            <h1 className="cursor-pointer text-blue-600 underline">Show more</h1>
+            <h1 className="cursor-pointer text-blue-600 underline">
+              Show more
+            </h1>
           </Link>
         </div>
       </Layout>
