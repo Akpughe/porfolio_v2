@@ -1,0 +1,68 @@
+[
+    {
+        "id": "to_do",
+        "slug": "to_do",
+        "name": "To-do List",
+        "link": "https://react-todo-hooks.now.sh/",
+        "github": "https://github.com/Akpughe/react-todo-hooks",
+        "stack": "react js",
+        "backgroundImage":
+          "https://res.cloudinary.com/davak/image/upload/v1609721074/portfolio/snap_2_az60hm.png",
+          "thumbnail":"../images/todo.png"
+      },
+      {
+        "id": "ecommerce",
+        "slug": "ecommerce",
+        "name": "E-commerce with Snipcart",
+        "link": "https://snip-cart-ecommerce.now.sh/",
+        "github": "https://github.com/Akpughe/Snipcart-nxtjs",
+        "stack": "react, snipcart",
+        "backgroundImage":
+          "https://res.cloudinary.com/davak/image/upload/v1609721079/portfolio/snap_1_evdre7.png",
+          "thumbnail":"../images/commerce.webp"
+      },
+      {
+        "id": "twitter_clone",
+        "slug": "twitter_clone",
+        "name": "Twitter Clone",
+        "link": "https://twitter-clone-421b6.web.app/",
+        "github": "https://github.com/Akpughe/Twitter_clone",
+        "stack": "react, firebase",
+        "backgroundImage":
+          "https://res.cloudinary.com/davak/image/upload/v1609721494/portfolio/snap_4_v6wnhc.png",
+          "thumbnail":"../images/twitter.webp"
+
+      },
+      {
+        "id": "expense_tracker",
+        "slug": "expense_tracker",
+        "name": "Expense Tracker",
+        "link": "https://fathomless-plateau-51253.herokuapp.com/",
+        "github": "https://github.com/Akpughe/expense-tracker",
+        "stack": "react, nodejs, expressjs, mongodb",
+        "backgroundImage":
+          "https://res.cloudinary.com/davak/image/upload/v1609721075/portfolio/snap_3_hoofvt.png",
+          "thumbnail":"../images/tracker.jpeg"
+
+      },
+      {
+        "id": "gallery_app",
+        "slug": "gallery_app",
+        "name": "Gallery App",
+        "link": "",
+        "github": "https://github.com/Akpughe/react-tailwind-pixabay-gallery",
+        "stack": "react, pixabay api, tailwind",
+        "backgroundImage": "",
+        "thumbnail":"../images/gallery.jpeg"
+      },
+      {
+        "id": "hmis",
+        "slug": "hmis",
+        "name": "Hospital Management Information System",
+        "link": "",
+        "github": "https://github.com/Akpughe/HMIS",
+        "stack": "react, redux, tailwind, nodejs, express, mongodb",
+        "backgroundImage": "../images/hmis.png",
+        "thumbnail":"../images/health.jpeg"
+      }
+]
