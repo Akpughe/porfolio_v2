@@ -13,11 +13,11 @@ const work = ({ projects }) => {
       </Head>
 
       <Layout>
-        <div className="container mx-auto w-3/4 mb-10">
+        <div className="container mx-auto sm:w-3/4 w-full  mb-10">
           <div className="pl-12 mb-12">
             <h1 className="text-4xl font-bold tracking-wider">Works</h1>
           </div>
-          <div className="flex flex-wrap pb-4 ">
+          <div className="flex flex-wrap pb-4 justify-center ">
             {projects.map((project, index) => {
               return (
                 <Link href={`/work/${project.slug}`}>

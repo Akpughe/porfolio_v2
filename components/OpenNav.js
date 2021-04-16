@@ -13,12 +13,12 @@ const OpenNav = () => {
       }}
     >
       <div
-        className="flex flex-wrap justify-between"
+        className="flex flex-wrap sm:justify-between justify-center text-center"
         style={{ width: '750px' }}
       >
         <Fade top>
           <div className="flex flex-col py-6 justify-between">
-            <div className="flex flex-col justify-between">
+            <div className="flex flex-col justify-between items-center">
               <div className="w-20 h-20 bg-black rounded-full"></div>
               <h2 className="uppercase text-sm font-semibold text-indigo-600 mt-10">
                 Contact Details
