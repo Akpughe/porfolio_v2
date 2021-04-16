@@ -5,7 +5,6 @@ import Layout from '../components/Layout';
 import WorkCard from '../components/WorkCard';
 import Arrow from '../icons/Arrow';
 import ArrowBlack from '../icons/ArrowBlack';
-import Card from '../components/Card';
 
 export default function Home({ props }) {
   return (
