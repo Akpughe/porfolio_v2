@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 import Layout from '../components/Layout';
+import WorkCard from '../components/WorkCard';
 import Arrow from '../icons/Arrow';
 import ArrowBlack from '../icons/ArrowBlack';
 import Card from '../components/Card';
@@ -124,10 +125,33 @@ export default function Home({ props }) {
           </div>
 
           <div
-            className="flex flex-wrap justify-center px-24"
+            className="flex flex-wrap justify-evenly px-24"
             style={{ paddingTop: '60px' }}
           >
-            <Card />
+            <Link href="/work/hmis">
+              <div className="flex cursor-pointer">
+                <WorkCard
+                  image="../images/health.jpeg"
+                  job={
+                    <h1 className="text-xl font-light">
+                      Health Information System
+                    </h1>
+                  }
+                  width="500px"
+                />
+              </div>
+            </Link>
+            <Link href="/work/expense_tracker">
+            
+            <div className="flex cursor-pointer">
+              <WorkCard
+                image="../images/tracker.jpeg"
+                border="border-2"
+                job={<h1 className="text-xl font-light">Expense Tracker</h1>}
+                width="500px"
+              />
+            </div>
+            </Link>
           </div>
         </section>
 
