@@ -7,7 +7,7 @@ export default function Projectpage({ page }) {
   return (
     <>
       <Head>
-        <title>{page.name}</title>
+        <title>David | {page.name}</title>
       </Head>
       <Layout>
         <div className="container mx-auto w-3/4 mb-10">
