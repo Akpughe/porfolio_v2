@@ -50,12 +50,12 @@ export default function Home({ props }) {
               <span className="absolute flex bottom-0 right-0 bg-gray-900 py-8 px-20 cursor-pointer">
                 David <Arrow />
               </span>
-              <img className="" src="/images/copy.jpg" alt="" />
+              <img width='auto' height='auto' className="" src="/images/copy.jpg" alt="" />
             </div>
           </div>
-          <div className="flex flex-wrap justify-evenly  pr-12 pr-12">
-            <div className="flex-1 max-w-md">
-              <h1 className="text-5xl font-bold mb-1">
+          <div className="flex flex-wrap justify-evenly">
+            <div className="max-w-md px-4">
+              <h1 className="text-3xl font-bold mb-1">
                 How can I help <br /> you?{' '}
               </h1>
               <p className="font-thin text-base text-justify leading-8 mb-8">
@@ -70,8 +70,9 @@ export default function Home({ props }) {
                 </span>
               </Link>
             </div>
+      
             {/*  */}
-            {/* <div
+            <div
               className="flex text-sm justify-evenly"
               style={{ paddingTop: '6rem' }}
             >
@@ -104,7 +105,7 @@ export default function Home({ props }) {
                   <span className="mb-1"></span>
                 </div>
               </div>
-            </div> */}
+            </div>
             {/*  */}
           </div>
         </section>
