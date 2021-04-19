@@ -74,7 +74,7 @@ export default function Home({ props }) {
             {/*  */}
             <div
               className="flex text-sm justify-evenly"
-              style={{ paddingTop: '6rem' }}
+              // style={{ paddingTop: '6rem' }}
             >
               <div className="flex-col mr-4">
                 <h3 className="mb-2 text-indigo-600 uppercase">Frontend</h3>
