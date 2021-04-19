@@ -14,9 +14,9 @@ export default function Projectpage({ page }) {
           <div className="bg-black w-24 p-3 mb-6 text-white hover:text-black hover:bg-white hover:border-gray-600 border">
             <Link href="/work"> ← Back</Link>
           </div>
-          <div className="flex flex-row justify-between pl-12 mb-12">
+          <div className="flex sm:flex-row flex-col justify-between sm:pl-12 pl-4 mb-12">
             <div className="flex">
-              <h1 className="text-3xl font-bold tracking-wider">{page.name}</h1>
+              <h1 className="text-3xl sm:pb-0 pb-4 font-bold tracking-wider">{page.name}</h1>
             </div>
             <div className="flex">
               <a
@@ -48,7 +48,7 @@ export default function Projectpage({ page }) {
               </a>
             </div>
           </div>
-          <div className="flex">
+          <div className="flex sm:flex-row flex-col">
             {/* img */}
             <div className="flex flex-col border-gray-600">
               <h3 className="font-semibold text-xl">ScreenShot</h3>
@@ -58,7 +58,7 @@ export default function Projectpage({ page }) {
                 alt={page.name}
               />
             </div>
-            <div className="flex flex-col p-24">
+            <div className="flex flex-col sm:p-24 p-4">
               <div>
                 <h1 className="font-semibold text-2xl tracking-wide pb-6">
                   Stack / Tools
