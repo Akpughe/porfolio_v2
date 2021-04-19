@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 const OpenNav = () => {
   return (
     <div
-      className="flex z-40 bg-gray-300 w-screen h-screen fixed justify-center items-center"
+      className="flex z-40 bg-gray-300 sm:w-screen w-full h-screen fixed justify-center items-center"
       style={{
         backgroundImage: "url('/images/line.svg')",
         backgroundRepeat: 'no-repeat',

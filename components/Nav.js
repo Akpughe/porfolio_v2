@@ -12,7 +12,7 @@ const Nav = () => {
   return (
     <>
       {show && <OpenNav show={show} />}
-      <nav className="flex justify-between p-5 w-screen bg-white text-black">
+      <nav className="flex justify-between p-5 sm:w-screen w-full bg-white text-black">
         <div className="z-50">
           <NavBrand />
         </div>
