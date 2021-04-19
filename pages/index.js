@@ -117,7 +117,7 @@ export default function Home({ props }) {
               Recent Work
             </h2>
             <Link href="/work">
-              <button className="flex items-center bg-white border-black text-black text-lg h-16 py-7 px-12 ml-11 border border-gray-300 rounded-full">
+              <button className="flex items-center bg-white text-black text-lg h-16 py-7 px-12 ml-11 border border-gray-300 rounded-full">
                 All work <ArrowBlack />{' '}
               </button>
             </Link>
@@ -128,15 +128,15 @@ export default function Home({ props }) {
             style={{ paddingTop: '60px' }}
           >
             <Link href="/work/hmis">
-              <div className="flex cursor-pointer">
+              <div className="flex cursor-pointer mb-6">
                 <WorkCard
                   image="../images/health.jpeg"
                   job={
-                    <h1 className="text-xl font-light">
+                    <h1 className="text-xl font-normal">
                       Health Information System
                     </h1>
                   }
-                  width="500px"
+                  width="400px"
                 />
               </div>
             </Link>
@@ -146,8 +146,8 @@ export default function Home({ props }) {
               <WorkCard
                 image="../images/tracker.jpeg"
                 border="border-2"
-                job={<h1 className="text-xl font-light">Expense Tracker</h1>}
-                width="500px"
+                job={<h1 className="text-xl font-normal">Expense Tracker</h1>}
+                width="400px"
               />
             </div>
             </Link>
@@ -156,7 +156,7 @@ export default function Home({ props }) {
 
         <section className="flex justify-center border-t-2 border-gray-400 pt-32">
           <div
-            className="text-center m-0 m-auto"
+            className="text-center m-auto"
             style={{ marginBottom: '120px' }}
           >
             <h3 className="text-sm font-normal text-gray-600 tracking-wider mb-8	 ">
