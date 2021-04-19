@@ -136,7 +136,7 @@ export default function Home({ props }) {
                       Health Information System
                     </h1>
                   }
-                  width="400px"
+                  width="300px"
                 />
               </div>
             </Link>
@@ -147,7 +147,7 @@ export default function Home({ props }) {
                 image="../images/tracker.jpeg"
                 border="border-2"
                 job={<h1 className="text-xl font-normal">Expense Tracker</h1>}
-                width="400px"
+                width="300px"
               />
             </div>
             </Link>
