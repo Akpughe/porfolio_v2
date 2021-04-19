@@ -25,7 +25,7 @@ const work = ({ projects }) => {
                     <WorkCard
                       image={project.thumbnail}
                       job={project.name}
-                      width="350px"
+                      width="300px"
                     />
                   </div>
                 </Link>
