@@ -64,5 +64,25 @@
         "stack": "react, redux, tailwind, nodejs, express, mongodb",
         "backgroundImage": "../images/hmis.png",
         "thumbnail":"../images/health.jpeg"
+      },
+      {
+        "id": "lms",
+        "slug": "lms",
+        "name": "Data Science Portal (Closed source)",
+        "link": "",
+        "github": "https://github.com/Akpughe/HMIS",
+        "stack": "react, tailwind, strapi CMS",
+        "backgroundImage": "../images/rbs.png",
+        "thumbnail":"../images/learn.webp"
+      },
+      {
+        "id": "bootcampsite",
+        "slug": "bootcampsite",
+        "name": "BootCamp Website",
+        "link": "https://bootcamp-seven.vercel.app",
+        "github": "https://github.com/Akpughe/bootcamp-site",
+        "stack": "react, tailwind",
+        "backgroundImage": "../images/bcamp.png",
+        "thumbnail":"../images/bc.png"
       }
 ]
