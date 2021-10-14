@@ -84,5 +84,25 @@
         "stack": "react, tailwind",
         "backgroundImage": "../images/bcamp.png",
         "thumbnail":"../images/bc.png"
+      },
+      {
+        "id": "evnt-plnr",
+        "slug": "evnt-plnr",
+        "name": "EventPlanner",
+        "link": "http://evntplnr.vercel.app/",
+        "github": "https://github.com/Akpughe/evnt-plnr",
+        "stack": "nextjs, nodejs, express and mongodb",
+        "backgroundImage": "",
+        "thumbnail":""
+      },
+      {
+        "id": "dash-board",
+        "slug": "dash-board",
+        "name": "AfrealOne DashBoard",
+        "link": "https://afreal-one.vercel.app/dashboard.html",
+        "github": "https://github.com/Akpughe/afreal_one",
+        "stack": "html5, css3, javascript",
+        "backgroundImage": "",
+        "thumbnail":"../images/aOne.png"
       }
 ]
